@@ -17,10 +17,10 @@
   <p>IPTV+ is a personal app. It has no servers of its own and collects no data about you.</p>
   <h2>Google Drive sync (optional)</h2>
   <ul>
-    <li>If you sign in with Google, the app asks only for the <code>drive.appdata</code> permission. This lets it read and write one small file in a hidden app-data folder in your own Google Drive. It cannot see, change or delete any of your other files.</li>
+    <li>If you sign in with Google, the app asks only for the <code>drive.file</code> permission. This lets it read and write the one small file it creates itself in your own Google Drive (<code>iptvplus-sync.json</code>). It cannot see, change or delete any of your other files.</li>
     <li>That file holds your favorites, watchlist, watched titles and playback positions. It is used only to keep your own devices in sync.</li>
     <li>The sign-in token stays on your device. Nothing is sent to anyone else, sold or shared.</li>
-    <li>To stop syncing, sign out in the app's settings, or remove IPTV+ at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Removing access also lets Google delete the app's hidden folder.</li>
+    <li>To stop syncing, sign out in the app's settings, or remove IPTV+ at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. You can also delete <code>iptvplus-sync.json</code> from your Drive at any time.</li>
   </ul>
   <h2>Everything else</h2>
   <p>Your playlist details and settings are stored only on your device.</p>
